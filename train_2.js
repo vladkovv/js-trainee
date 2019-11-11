@@ -69,8 +69,12 @@ date();
 //Задание 8
 ("use strict");
 function changeCar(inputObject) {
-  let newCar = Object.assign(inputObject, { passengers: 35 });
-  return newCar;
+  let newCar = Object.assign({}, inputObject, { passengers: 35 });
+  return  newCar;
+}
+function createTruck(InputObject){
+  let newTruck = Object.assign({}, InputObject, {tonnage: 20});
+return newTruck;
 }
 console.log("Задание 8")
 let car = { massa: 1 };
@@ -79,5 +83,10 @@ console.log(car);
 let bus = changeCar(car);
 console.log("Объект bus");
 console.log(bus);
+console.log("Объект car");
+console.log(car);
+let autoTruck = createTruck(car);
+console.log("Объект autoTruck")
+console.log(autoTruck);
 console.log("Объект car");
 console.log(car);
