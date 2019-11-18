@@ -6,4 +6,4 @@ let phrase = {
    }
    let funcPhr = func.bind(phrase);
    funcPhr('Иванов', 'Иван'); 
-   funcPhr('Петров', 'Петр');
+   funcPhr('Петров', 'Петр'); 

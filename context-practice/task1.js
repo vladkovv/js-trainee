@@ -4,3 +4,4 @@ function count(number) {
 
 count(1252);
 
+ 

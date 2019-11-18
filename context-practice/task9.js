@@ -10,7 +10,7 @@ function filter(arr, func){
     arr2 = [];
     for(i = 0; i < arr.length; i++){
         if(func(arr[i])){
-            arr2.push(arr[i]);
+            arr2.push(arr[i]); 
         }
     }
     return arr2;

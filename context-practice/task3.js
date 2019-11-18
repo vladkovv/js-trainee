@@ -10,7 +10,7 @@ if (number > 1) {
            return false;
 
        }
-       return true;
+       return true; 
     }
 }
 }

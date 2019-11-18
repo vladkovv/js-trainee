@@ -8,7 +8,7 @@ function reverseArray(arr) {
 console.log(reverseArray([1,2,3,4,5]));
 
 function reverseArrayInPlace(arr) {
-    for (let i = arr.length -1; i >= 0; i--) {
+    for (let i = arr.length -1; i >= 0; i--) { 
         arr.unshift(arr.pop());
         // arr.pop();
     }

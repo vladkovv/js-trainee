@@ -9,7 +9,7 @@ function range(first, last, step = 1) {
       arr.push(i);
     }
   return arr;
-}
+} 
 function sum(arr) {
   let result = arr.reduce(function(a, b) {
     return a + b;

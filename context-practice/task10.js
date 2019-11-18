@@ -5,4 +5,4 @@ let obj = {
    function func() {
     console.log(this.a);
    }
-   func.call(obj);
+   func.call(obj); 

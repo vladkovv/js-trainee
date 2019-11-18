@@ -7,4 +7,4 @@ for (let i = 0;  i <= number; i++) {
 }
 return arr;
 }
-console.log(getDivisiors(20));
+console.log(getDivisiors(20)); 

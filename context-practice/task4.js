@@ -8,3 +8,4 @@ let result = numbers.reduce(function(a, b) {
 
 console.log(sum(1,2,3,4));
 
+ 
