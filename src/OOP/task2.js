@@ -20,4 +20,4 @@ Children1.getName();
 Children1.getSurname();
 Children1.getAge();
 Children1.setName("Vladislav");
-Children1.getName();
+Children1.getName(); 

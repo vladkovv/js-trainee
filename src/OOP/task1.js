@@ -19,4 +19,4 @@ const obj1 = new Tiles('some brand1', 20, 40, 150);
 const obj2 = new Tiles('some brand2', 40, 60,  300);
 
 obj1.getData();
-obj2.getData();
+obj2.getData(); 

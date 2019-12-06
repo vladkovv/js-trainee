@@ -15,7 +15,7 @@ class Customer {
     this.lastname = lastname;
     this.firstname = firstname;
     this.middlename = middlename;
-    this.adress = adress;
+    this.adress = adress; 
     this.cardNumber = cardNumber;
     this.bankAccNumber = bankAccNumber;
   }

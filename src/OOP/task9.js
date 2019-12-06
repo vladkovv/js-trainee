@@ -18,7 +18,7 @@ class Rectangle extends Figure {
   }
 
   calcArea() {
-    return this.length * this.width;
+    return this.length * this.width; 
   }
 
   calcPerimeter() {

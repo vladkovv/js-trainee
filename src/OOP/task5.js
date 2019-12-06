@@ -12,3 +12,4 @@ class Triangle {
         BC = scrt(scr(x2-x3)+scr(y2-y3));
         CA = scrt(scr(x3-x1)+scr(y3-y1));
     }
+}

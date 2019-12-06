@@ -18,7 +18,7 @@ class Line {
         (this.coords[n1].z - this.coords[n2].z) ** 2
     );
   }
-
+ 
   getPoint(n) {
     return this.coords[n];
   }

@@ -12,7 +12,7 @@ class point {
         this.y = y_v;
     }
 }
-class Graphicpoint extends point {
+class Graphicpoint extends point { 
     constructor(x, y, point_color){
         super(x, y);
         this.point_color = point_color;

@@ -23,7 +23,7 @@ class TwoDimArray {
       return this;
     }
   
-    transpose() {
+    transpose() { 
       let row;
       const tr = [];
       for (let j = 0; j < this.cols; j++) {
